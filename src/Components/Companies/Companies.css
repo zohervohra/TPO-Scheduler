@@ -1,0 +1,51 @@
+.company{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height:auto;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.company1{
+    display: flex;
+}
+
+.heading, .content{
+    font-family: "Ubuntu", sans-serif;
+}
+.heading{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
+.company:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  } 
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* or any other appropriate width */
+    grid-gap: 10px; /* adjust as needed */
+  }
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bg{
+    width:100px;
+}
